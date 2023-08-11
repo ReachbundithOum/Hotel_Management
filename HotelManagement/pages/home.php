@@ -35,7 +35,6 @@
     <main>
         <div class="main-top">
             <h2 class="text-center text-uppercase p-3 mt-3" style="color:#987d46;">" Angkor Starlit Hotel "</h2>
-			<h4>ការសិក្សានៅសាលារៀន</h4>
             <p> Angkor Starlit Hotel is ideally located in a leafy street in the center of Siem Reap, 
                 in the vibrant Wat Bo area, the hotel boast 50’s-inspired, complemented by large 
                 green area and vertical gardens. This peaceful area adjacent to the river is just 

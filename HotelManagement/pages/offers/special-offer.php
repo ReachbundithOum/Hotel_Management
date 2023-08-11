@@ -57,7 +57,7 @@
 				<div class="nav nav-tabs justify-content-center">
 					<div class="nav-item">
 						<a 	class="nav-link text-uppercase "
-							href="#"
+							href="index.php?offer=package"
 							data-toggle="tab"
 							role="tab"
 							aria-controls="package"
@@ -67,7 +67,7 @@
 					</div>
 					<div class="nav-item">
 						<a 	class="nav-link text-uppercase"
-							href="#"
+							href="index.php?offer=best-rate-guarantee"
 							data-toggle="tab"
 							role="tab"
 							aria-controls="best-rate-guarantee"

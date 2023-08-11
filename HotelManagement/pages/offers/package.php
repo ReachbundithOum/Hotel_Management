@@ -67,7 +67,7 @@
 					</div>
 					<div class="nav-item">
 						<a 	class="nav-link text-uppercase"
-							href="#"
+							href="index.php?offer=best-rate-guarantee"
 							data-toggle="tab"
 							role="tab"
 							aria-controls="best-rate-guarantee"
@@ -75,9 +75,11 @@
 							2.BEST RATE GUARANTEE
 						</a>
 					</div>
+					<script>
+
+					</script>
 				</div>
 			</nav>
-		</div>
 <!--  Button Scroll End -->
 <!--  Main Content Special Offer Start -->
 			<!-- special offer content start-->
