@@ -55,288 +55,364 @@
 			</div>
 			<nav class="nav-tabs-responsive my-5">
 				<div class="nav nav-tabs justify-content-center">
-					<div class="nav-item">
-						<a 	class="nav-link text-uppercase "
-							href="index.php?offer=package"
-							data-toggle="tab"
-							role="tab"
-							aria-controls="package"
-							aria-selected="true">
-							1.PACKAGE
-						</a>
-					</div>
-					<div class="nav-item">
-						<a 	class="nav-link text-uppercase"
-							href="index.php?offer=best-rate-guarantee"
-							data-toggle="tab"
-							role="tab"
-							aria-controls="best-rate-guarantee"
-							aria-selected="true">
-							2.BEST RATE GUARANTEE
-						</a>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<div class="nav-item">
+							<button class="nav-link active" 
+									id="nav-package-tab" 
+									data-bs-toggle="tab" 
+									data-bs-target="#nav-package" 
+									type="button" 
+									role="tab" 
+									aria-controls="nav-package" 
+									aria-selected="true">
+									1.PACKAGE
+							</button>
+						</div>
+						<div class="nav-item">
+							<button class="nav-link" 
+									id="nav-best-rate-tab" 
+									data-bs-toggle="tab" 
+									data-bs-target="#nav-best-rate" 
+									type="button" 
+									role="tab" 
+									aria-controls="nav-best-rate" 
+									aria-selected="false">
+									2.BEST RATE GUARANTEE
+							</button>
+						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- special offer content start-->
+			
+			
+
+
+
+			<!--nav content start-->
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="nav-package" role="tabpanel" aria-labelledby="nav-package-tab" tabindex="0">
+						<!-- special offer content start-->
+						<div class="row offer-content mt-5">
+							<div class="col-6">
+								<img src="../HotelManagement/images/Offer/Special-offer/Spa-1-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
+							</div>
+							<div class="col-6">
+								<h1>LIFESTYLE PACKAGE</h1>
+								<p>	Refresh & rejuvenate during your stay at the hotel. This true indulgence includes cocktails
+									shopping, spa treatments, and dinner.On each of our special packages our customers will 
+									save 20-30% of the original price.
+								</p>
+								<div class="row">
+									<div class="col-6">
+										<ul>
+											<li>Accommodation in selected room</li>
+											<li>Airport transfers (both directions)</li>
+											<li>Daily à la carte breakfast </li>
+											<li>One cocktail for each person</li>
+											<li>1 Aromatherapy massage per stay (90 mins each guest)</li>
+											<li>1 dinner Khmer set menu at hotel</li>
+											<li>15% discount on any spa treatments (if booked before arrival)</li>
+											<li>Fresh tropical fruit platter in room upon arrival</li>
+											<li>Welcome drink upon arrival</li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<ul>
+											<li>Drinking water in the room</li>
+											<li>WIFI connection in rooms and public areas</li>
+											<li>Tea and coffee making facilities in room</li>
+											<li>Nightly turn down service</li>
+											<li>Complimentary use of gym facilities</li>
+											<li>Early check-in and late check-out (subject to availability)</li>
+											<li>Half-day shopping tour of Siem Reap : our Tuk Tuk driver will take you to select shops</li>
+										</ul>
+									</div>
+								</div>
+							<!-- #price & btn -->
+								<div class="btn-price-special-offer">
+									<div class="row">
+										<div class="col-6" style="margin-top:1rem;">
+											<div class="row">
+												<div class="col-auto mt-1">
+													<h6>PRICE FROM</h6>
+													<p>US$ <span style="font-size:2rem;color: #bd9c58;">165</span></p>
+												</div>
+												<div class="col-auto">
+													<h6>**</h6>
+													<p>per night <br /><span style="font-size:.7rem;">(minimum 2 night)</span></p>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-6">
+											<button	type="button"
+													class="btn-special-offer">
+											BOOK NOW
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<div class="nav nav-tabs mt-5"></div>
+					<div class="row offer-content mt-5">
+							<div class="col-6">
+								<img src="../HotelManagement/images/Offer/Special-offer/Bayon-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
+							</div>
+							<div class="col-6">
+								<h1>ARCHAEOLOGICAL PACKAGE</h1>
+								<p>	Refresh & rejuvenate during your stay at the hotel. This true indulgence includes cocktails
+									shopping, spa treatments, and dinner.On each of our special packages our customers will 
+									save 20-30% of the original price.
+								</p>
+								<div class="row">
+									<div class="col-6">
+										<ul>
+											<li>Accommodation in selected room</li>
+											<li>Airport transfers (both directions)</li>
+											<li>Daily à la carte breakfast </li>
+											<li>One cocktail for each person</li>
+											<li>1 Aromatherapy massage per stay (90 mins each guest)</li>
+											<li>1 dinner Khmer set menu at hotel</li>
+											<li>15% discount on any spa treatments (if booked before arrival)</li>
+											<li>Fresh tropical fruit platter in room upon arrival</li>
+											<li>Welcome drink upon arrival</li>
+											<li>Drinking water in the room</li>
+											<li>WIFI connection in rooms and public areas</li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<ul>
+											<li>Nightly turndown service</li>
+											<li>Tea and coffee making facilities in room</li>
+											<li>Complimentary use of gym facilities</li>
+											<li>Early check-in and late check-out (subject to availability)</li>
+											<li>Private 2-day temple tour of SMALL CIRCUIT TOUR & GRAND CIRCUIT TOUR including Banteay Srei temple.
+												Both days included English speaking guide, Car transportation, 3-day temple passes.</li>
+											<li>1 sunrise at Angkor Wat</li>
+											<li>1 sunset at Phnom Bakheng</li>
+										</ul>
+									</div>
+								</div>
+							<!-- #price & btn -->
+								<div class="btn-price-special-offer">
+									<div class="row">
+										<div class="col-6" style="margin-top:1rem;">
+											<div class="row">
+												<div class="col-auto mt-1">
+													<h6>PRICE FROM</h6>
+													<p>US$ <span style="font-size:2rem;color: #bd9c58;">229</span></p>
+												</div>
+												<div class="col-auto">
+													<h6>**</h6>
+													<p>per night <br /><span style="font-size:.7rem;">(minimum 3 night)</span></p>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-6">
+											<button	type="button"
+													class="btn-special-offer">
+											BOOK NOW
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<div class="nav nav-tabs mt-5"></div>
+					<div class="row offer-content mt-5">
+							<div class="col-6">
+								<img src="../HotelManagement/images/Offer/Special-offer/Kulen-600x400.jpg" alt="" width="100%" style="border-radius:5px;" />
+							</div>
+							<div class="col-6">
+								<h1>ADVENTURE PACKAGE</h1>
+								<p>	Explore the Angkor complex for two days, around the Small & Grand Circuits and Banteay Srei temple,
+									then discover the fascinating Kulen Mountain on the third day.
+									On each of our special packages our customers will save 20-30% of the original price.
+								</p>
+								<div class="row">
+									<div class="col-6">
+										<ul>
+											<li>Accommodation in selected room</li>
+											<li>Airport transfers (both directions)</li>
+											<li>Daily à la carte breakfast </li>
+											<li>Welcome drink & cold towel on arrival</li>
+											<li>Fresh tropical fruit platter in room upon arrival</li>
+											<li>Complimentary use of gym facilities</li>
+											<li>Tea and coffee making facilities in the room</li>
+											<li>15% discount on any spa treatments (if booked before arrival)</li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<ul>
+											<li>Early check-in and late check-out (subject to availability)</li>
+											<li>Private 3-day tour of SMALL CIRCUIT TOUR and GRAND CIRCUIT TOUR including Banteay Srei temple and excursion at the Koulen Mountain
+												to discover waterfalls, reclining Buddha, giant statue, and cave. Three-day tour include English speaking guide, temple passes,
+												Koulen mountain tickets, vehicle and driver.
+											</li>
+										</ul>
+									</div>
+								</div>
+							<!-- #price & btn -->
+								<div class="btn-price-special-offer">
+									<div class="row">
+										<div class="col-6" style="margin-top:1rem;">
+											<div class="row">
+												<div class="col-auto mt-1">
+													<h6>PRICE FROM</h6>
+													<p>US$ <span style="font-size:2rem;color: #bd9c58;">249</span></p>
+												</div>
+												<div class="col-auto">
+													<h6>**</h6>
+													<p>per night <br /><span style="font-size:.7rem;">(minimum 4 night)</span></p>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-6">
+											<button	type="button"
+													class="btn-special-offer">
+											BOOK NOW
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="nav nav-tabs mt-5"></div>
+						<div class="row offer-content mt-5">
+							<div class="col-6">
+								<img src="../HotelManagement/images/Offer/Special-offer/Floating-village-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
+							</div>
+							<div class="col-6">
+								<h1>ANGKOR & LOCAL CULTURE</h1>
+								<p>	Enjoy maximum comfort during your stay, in one of our spacious rooms and be pampered by our great services,
+									we offer you an air-conditioned room with an open-air terrace overlooking our swimming pool and include full
+									board in one of our two restaurants. We top this off with a spa treatment.
+									On each of our special packages our customers will save 20%-30% of the original price.
+								</p>
+								<div class="row">
+									<div class="col-6">
+										<ul>
+											<li>Accommodation in selected room</li>
+											<li>Airport round-trip transfers</li>
+											<li>Daily à la carte breakfast </li>
+											<li>Welcome drink (a unique blend of the sweet and sour juice of the tamarind)</li>
+											<li>WIFI connection in the room and public area</li>
+											<li>One Khmer dinner set menu with one soft drink at hotel</li>
+											<li>One Khmer Traditional massage per stay (90-minute each guest)</li>
+											<li>Fresh tropical fruit platter in room on arrival</li>
+											<li>Drinking water in the room</li>
+											<li>Tea and coffee making facilities in the room</li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<ul>
+											<li>Complimentary use of gym facilities</li>
+											<li>15% discount on any spa treatments (If booked before arrival).</li>
+											<li>One full-day tour of Small Circuit Tour (Angkor Wat, South gate of Angkor Thom,
+												Bayon, Baphuon, Elephant Terrace, Leper King, Takeo, Ta Prohm).
+											</li>
+											<li>One-day tour of a floating village on the Tonle Sap Lake in a private boat and countryside
+												(ancient road, rural life, Wat Laork, organic farms)
+											</li>
+											<li>Both day tours including temple tickets, Boat ticket, private English speaking guide and comfortable air-conditioned car</li>
+										</ul>
+									</div>
+								</div>
+							<!-- #price & btn -->
+								<div class="btn-price-special-offer">
+									<div class="row">
+										<div class="col-6" style="margin-top:1rem;">
+											<div class="row">
+												<div class="col-auto mt-1">
+													<h6>PRICE FROM</h6>
+													<p>US$ <span style="font-size:2rem;color: #bd9c58;">249</span></p>
+												</div>
+												<div class="col-auto">
+													<h6>**</h6>
+													<p>per night <br /><span style="font-size:.7rem;">(minimum 3 night)</span></p>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-6">
+											<button	type="button"
+													class="btn-special-offer">
+											BOOK NOW
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				<!-- special offer content end part 1-->
+				</div>
+
+
+
+
+		<!-- special offer content start part2-->
+		<div class="tab-pane fade" id="nav-best-rate" role="tabpanel" aria-labelledby="nav-best-rate-tab" tabindex="0">
 			<div class="row offer-content mt-5">
-				<div class="col-6">
-					<img src="../HotelManagement/images/Offer/Special-offer/Spa-1-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
-				</div>
-				<div class="col-6">
-					<h1>LIFESTYLE PACKAGE</h1>
-					<p>	Refresh & rejuvenate during your stay at the hotel. This true indulgence includes cocktails
-						shopping, spa treatments, and dinner.On each of our special packages our customers will 
-						save 20-30% of the original price.
-					</p>
-					<div class="row">
-						<div class="col-6">
-							<ul>
-								<li>Accommodation in selected room</li>
-								<li>Airport transfers (both directions)</li>
-								<li>Daily à la carte breakfast </li>
-								<li>One cocktail for each person</li>
-								<li>1 Aromatherapy massage per stay (90 mins each guest)</li>
-								<li>1 dinner Khmer set menu at hotel</li>
-								<li>15% discount on any spa treatments (if booked before arrival)</li>
-								<li>Fresh tropical fruit platter in room upon arrival</li>
-								<li>Welcome drink upon arrival</li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<ul>
-								<li>Drinking water in the room</li>
-								<li>WIFI connection in rooms and public areas</li>
-								<li>Tea and coffee making facilities in room</li>
-								<li>Nightly turn down service</li>
-								<li>Complimentary use of gym facilities</li>
-								<li>Early check-in and late check-out (subject to availability)</li>
-								<li>Half-day shopping tour of Siem Reap : our Tuk Tuk driver will take you to select shops</li>
-							</ul>
-						</div>
+					<div class="col-6">
+						<img src="../HotelManagement/images/Offer/Special-offer/Soth-created-2-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
 					</div>
-				<!-- #price & btn -->
-					<div class="btn-price-special-offer">
-						<div class="row">
-							<div class="col-6" style="margin-top:1rem;">
-								<div class="row">
-									<div class="col-auto mt-1">
-										<h6>PRICE FROM</h6>
-										<p>US$ <span style="font-size:2rem;color: #bd9c58;">165</span></p>
-									</div>
-									<div class="col-auto">
-										<h6>**</h6>
-										<p>per night <br /><span style="font-size:.7rem;">(minimum 2 night)</span></p>
-										
+					<div class="col-6">
+						<h1>HOT SAVE! DON'T MISS OUT!</h1>
+						<p>	Book directly through Viroth’s Hotel’s website to access our Best Available Rates.</p>
+						<div>
+							<p> For bookings made directly through our official website, you will get the best rate guarantee,
+								some of our rate plans include additional benefits (complimentary Khmer dinner or lunch set menu 
+								and / or upgraded airport transfers in one of our vintage limousines) not available on third-party 
+								booking websites.
+							</p>
+							<span>
+								<i style="font-size:.8rem"> RISK FREE: You can cancel later, so lock in this great price today.
+									NO PREPAYMENT NEEDED – Pay at the hotel
+								</i>
+							</span>
+						</div>
+					<!-- #price & btn -->
+						<div class="btn-price-special-offer">
+							<div class="row">
+								<div class="col-6" style="margin-top:1rem;">
+									<div class="row">
+										<div class="col-auto mt-1">
+											<h6>PRICE FROM</h6>
+											<p>US$ <span style="font-size:2rem;color: #bd9c58;">129</span></p>
+										</div>
+										<div class="col-auto">
+											<h6>**</h6>
+											<p>per night <br /><span style="font-size:.7rem;">Hurry Up!</span></p>
+											
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-6">
-								<button	type="button"
-										class="btn-special-offer">
-								BOOK NOW
-								</button>
+								<div class="col-6">
+									<button	type="button"
+											class="btn-special-offer">
+									BOOK NOW
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		<div class="nav nav-tabs mt-5"></div>
-		<div class="row offer-content mt-5">
-				<div class="col-6">
-					<img src="../HotelManagement/images/Offer/Special-offer/Bayon-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
-				</div>
-				<div class="col-6">
-					<h1>ARCHAEOLOGICAL PACKAGE</h1>
-					<p>	Refresh & rejuvenate during your stay at the hotel. This true indulgence includes cocktails
-						shopping, spa treatments, and dinner.On each of our special packages our customers will 
-						save 20-30% of the original price.
-					</p>
-					<div class="row">
-						<div class="col-6">
-							<ul>
-								<li>Accommodation in selected room</li>
-								<li>Airport transfers (both directions)</li>
-								<li>Daily à la carte breakfast </li>
-								<li>One cocktail for each person</li>
-								<li>1 Aromatherapy massage per stay (90 mins each guest)</li>
-								<li>1 dinner Khmer set menu at hotel</li>
-								<li>15% discount on any spa treatments (if booked before arrival)</li>
-								<li>Fresh tropical fruit platter in room upon arrival</li>
-								<li>Welcome drink upon arrival</li>
-								<li>Drinking water in the room</li>
-								<li>WIFI connection in rooms and public areas</li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<ul>
-								<li>Nightly turndown service</li>
-								<li>Tea and coffee making facilities in room</li>
-								<li>Complimentary use of gym facilities</li>
-								<li>Early check-in and late check-out (subject to availability)</li>
-								<li>Private 2-day temple tour of SMALL CIRCUIT TOUR & GRAND CIRCUIT TOUR including Banteay Srei temple.
-									Both days included English speaking guide, Car transportation, 3-day temple passes.</li>
-								<li>1 sunrise at Angkor Wat</li>
-								<li>1 sunset at Phnom Bakheng</li>
-							</ul>
-						</div>
-					</div>
-				<!-- #price & btn -->
-					<div class="btn-price-special-offer">
-						<div class="row">
-							<div class="col-6" style="margin-top:1rem;">
-								<div class="row">
-									<div class="col-auto mt-1">
-										<h6>PRICE FROM</h6>
-										<p>US$ <span style="font-size:2rem;color: #bd9c58;">229</span></p>
-									</div>
-									<div class="col-auto">
-										<h6>**</h6>
-										<p>per night <br /><span style="font-size:.7rem;">(minimum 3 night)</span></p>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-6">
-								<button	type="button"
-										class="btn-special-offer">
-								BOOK NOW
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		<div class="nav nav-tabs mt-5"></div>
-		<div class="row offer-content mt-5">
-				<div class="col-6">
-					<img src="../HotelManagement/images/Offer/Special-offer/Kulen-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
-				</div>
-				<div class="col-6">
-					<h1>ADVENTURE PACKAGE</h1>
-					<p>	Explore the Angkor complex for two days, around the Small & Grand Circuits and Banteay Srei temple,
-						then discover the fascinating Kulen Mountain on the third day.
-						On each of our special packages our customers will save 20-30% of the original price.
-					</p>
-					<div class="row">
-						<div class="col-6">
-							<ul>
-								<li>Accommodation in selected room</li>
-								<li>Airport transfers (both directions)</li>
-								<li>Daily à la carte breakfast </li>
-								<li>Welcome drink & cold towel on arrival</li>
-								<li>Fresh tropical fruit platter in room upon arrival</li>
-								<li>Complimentary use of gym facilities</li>
-								<li>Tea and coffee making facilities in the room</li>
-								<li>15% discount on any spa treatments (if booked before arrival)</li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<ul>
-								<li>Early check-in and late check-out (subject to availability)</li>
-								<li>Private 3-day tour of SMALL CIRCUIT TOUR and GRAND CIRCUIT TOUR including Banteay Srei temple and excursion at the Koulen Mountain
-									to discover waterfalls, reclining Buddha, giant statue, and cave. Three-day tour include English speaking guide, temple passes,
-									Koulen mountain tickets, vehicle and driver.
-								</li>
-							</ul>
-						</div>
-					</div>
-				<!-- #price & btn -->
-					<div class="btn-price-special-offer">
-						<div class="row">
-							<div class="col-6" style="margin-top:1rem;">
-								<div class="row">
-									<div class="col-auto mt-1">
-										<h6>PRICE FROM</h6>
-										<p>US$ <span style="font-size:2rem;color: #bd9c58;">249</span></p>
-									</div>
-									<div class="col-auto">
-										<h6>**</h6>
-										<p>per night <br /><span style="font-size:.7rem;">(minimum 4 night)</span></p>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-6">
-								<button	type="button"
-										class="btn-special-offer">
-								BOOK NOW
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="nav nav-tabs mt-5"></div>
-			<div class="row offer-content mt-5">
-				<div class="col-6">
-					<img src="../HotelManagement/images/Offer/Special-offer/Floating-village-600x400.jpg" alt="" width="100%" style="border-radius:5px;"/>
-				</div>
-				<div class="col-6">
-					<h1>ANGKOR & LOCAL CULTURE</h1>
-					<p>	Enjoy maximum comfort during your stay, in one of our spacious rooms and be pampered by our great services,
-						we offer you an air-conditioned room with an open-air terrace overlooking our swimming pool and include full
-						board in one of our two restaurants. We top this off with a spa treatment.
-						On each of our special packages our customers will save 20%-30% of the original price.
-					</p>
-					<div class="row">
-						<div class="col-6">
-							<ul>
-								<li>Accommodation in selected room</li>
-								<li>Airport round-trip transfers</li>
-								<li>Daily à la carte breakfast </li>
-								<li>Welcome drink (a unique blend of the sweet and sour juice of the tamarind)</li>
-								<li>WIFI connection in the room and public area</li>
-								<li>One Khmer dinner set menu with one soft drink at hotel</li>
-								<li>One Khmer Traditional massage per stay (90-minute each guest)</li>
-								<li>Fresh tropical fruit platter in room on arrival</li>
-								<li>Drinking water in the room</li>
-								<li>Tea and coffee making facilities in the room</li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<ul>
-								<li>Complimentary use of gym facilities</li>
-								<li>15% discount on any spa treatments (If booked before arrival).</li>
-								<li>One full-day tour of Small Circuit Tour (Angkor Wat, South gate of Angkor Thom,
-									Bayon, Baphuon, Elephant Terrace, Leper King, Takeo, Ta Prohm).
-								</li>
-								<li>One-day tour of a floating village on the Tonle Sap Lake in a private boat and countryside
-									(ancient road, rural life, Wat Laork, organic farms)
-								</li>
-								<li>Both day tours including temple tickets, Boat ticket, private English speaking guide and comfortable air-conditioned car</li>
-							</ul>
-						</div>
-					</div>
-				<!-- #price & btn -->
-					<div class="btn-price-special-offer">
-						<div class="row">
-							<div class="col-6" style="margin-top:1rem;">
-								<div class="row">
-									<div class="col-auto mt-1">
-										<h6>PRICE FROM</h6>
-										<p>US$ <span style="font-size:2rem;color: #bd9c58;">249</span></p>
-									</div>
-									<div class="col-auto">
-										<h6>**</h6>
-										<p>per night <br /><span style="font-size:.7rem;">(minimum 3 night)</span></p>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-6">
-								<button	type="button"
-										class="btn-special-offer">
-								BOOK NOW
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		<!-- special offer content end-->
+			<!-- special offer content end part2-->
+
+
+
+
+
 		</div>
-	<!--  Button Scroll Start -->
-    <button onclick="topFunction()" id="myBtn">
-        <i class="fa fa-arrow-up"></i>
-    </button>
-    <!--  Button Scroll End -->
+	<!--nav content end-->
+</div>
+<!--Main special offer end -->
+<!--  Button Scroll Start -->
+<button onclick="topFunction()" id="myBtn">
+    <i class="fa fa-arrow-up"></i>
+</button>
+<!--  Button Scroll End -->

@@ -20,7 +20,7 @@
                         </div>
                     </li>
                     <li><a href="#">location</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="index.php?pg=contact">contact us</a></li>
                 </ul>
             </nav>
                 <button type="submit"

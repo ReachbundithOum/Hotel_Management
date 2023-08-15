@@ -260,17 +260,12 @@ border-radius: 8px ;
 .container-contact{
 max-width: var(--breakpoint-xl);
 margin: 0 auto;
+justify-content: center;
 }
 .container-contact .row{
 margin-top: 5rem;
 }
-.btnPDF{
-padding: .5rem;
-color: var(--dark);
-background-color: var(--lightgold);
-border-radius: 5px;
-font-weight: 700;
-}
+
 .contact-detail h3{
 background-color: var(--dark);
 padding: .7rem;
