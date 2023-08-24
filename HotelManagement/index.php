@@ -15,6 +15,19 @@
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/df974fea5b.js" crossorigin="anonymous"></script>
 </head>
+<style>
+    .text-block{
+        position: absolute;
+        bottom: 570px;
+        right: 1rem;
+        background-color: #bd9c58;
+        color: #fff;
+        padding: 1rem 1rem 0 1rem;
+        border-radius: 5px;
+        width: auto;
+        font-weight: 400;
+    }
+</style>
 <body> 
     <?php
         include_once 'pages/header.php';

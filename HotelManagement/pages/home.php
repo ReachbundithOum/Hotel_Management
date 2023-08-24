@@ -1,23 +1,37 @@
 
     <!--  Carousel Start  -->
-    <div class="container-carousel">
+    <div class="container-carousel" style="position:relative;">
         <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000" >
                     <img src="../HotelManagement/images/Carousel/carousel1.jpg" alt="" width="100%" height="650px" />
-                    <div class="text"></div>
+                    <div class="text-block">
+                        <p><i class="fa fa-phone"></i> +885 (0)92 213 824 | <i class="fa fa-edit"></i><a href="#" class="text-decoration-none text-white"> Manage Your Booking </a></p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="../HotelManagement/images/Carousel/carousel2.jpg" alt="" width="100%" height="650px" />
+                    <div class="text-block">
+                        <p><i class="fa fa-phone"></i> +885 (0)92 213 824 | <i class="fa fa-edit"></i><a href="#" class="text-decoration-none text-white"> Manage Your Booking </a></p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="../HotelManagement/images/Carousel/carousel4.jpg" alt="" width="100%" height="650px" />
+                    <div class="text-block">
+                        <p><i class="fa fa-phone"></i> +885 (0)92 213 824 | <i class="fa fa-edit"></i><a href="#" class="text-decoration-none text-white"> Manage Your Booking </a></p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="../HotelManagement/images/Carousel/carousel5.jpg" alt="" width="100%" height="650px" />
+                    <div class="text-block">
+                        <p><i class="fa fa-phone"></i> +885 (0)92 213 824 | <i class="fa fa-edit"></i><a href="#" class="text-decoration-none text-white"> Manage Your Booking </a></p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="../HotelManagement/images/Carousel/carousel6.jpg" alt="" width="100%" height="650px" />
+                    <div class="text-block">
+                        <p><i class="fa fa-phone"></i> +885 (0)92 213 824 | <i class="fa fa-edit"></i><a href="#" class="text-decoration-none text-white"> Manage Your Booking </a></p>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">

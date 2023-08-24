@@ -21,7 +21,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #494a4b;
   --brown: hsl(39, 68%, 83%);
   --lightgold : #BD9C58;
   --header :#a67102;
@@ -255,6 +255,7 @@ cursor: pointer;
 padding: .6rem;
 border-radius: 8px ;
 }
+
 /*--  Main Selection End  --*/
 /*--  Contact Selection Start  --*/
 .container-contact{
