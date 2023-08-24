@@ -5,6 +5,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000" >
                     <img src="../HotelManagement/images/Carousel/carousel1.jpg" alt="" width="100%" height="650px" />
+                    <div class="text"></div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="../HotelManagement/images/Carousel/carousel2.jpg" alt="" width="100%" height="650px" />
@@ -34,7 +35,71 @@
     <!--  Main Selection Start  -->
     <main>
         <div class="main-top">
-            <h2 class="text-center text-uppercase p-3 mt-3" style="color:#987d46;">" Angkor Starlit Hotel "</h2>
+            <div>
+                <h3>FIND A ROOM</h3>
+                <div class="row" style="background-color: hsl(158, 28%, 28%);padding:0px 15px 25px 25px;border-radius:10px;">
+                    <div class="col-lg-2 col-sm-2">
+                        <h6 class="mt-3 text-white">ARRIVAL DATE</h6>
+                        <input  type="date"
+                                name="arrival"
+                                id="arrival"
+                                class="form-control"/>
+                    </div>
+                    <div class="col-lg-2 col-sm-2">
+                        <h6 class="mt-3 text-white">DEPARTURE DATE</h6>
+                            <input  type="date"
+                                    name="departure"
+                                    id="departure"
+                                    class="form-control"/>
+                    </div>
+                    <div class="col-lg-2 col-sm-2">
+                        <h6 class="mt-3 text-white">ADULT</h6>
+                        <select name="adult" 
+                                id="adult"
+                                class="form-select">
+                            <option value="1">1 adult</option>
+                            <option value="2">2 adults</option>
+                            <option value="3">3 adults</option>
+                            <option value="4">4 adults</option>
+                            <option value="5">5 adults</option>
+                        </select>
+                    </div>
+                    <!-- <div class="col-lg-2 col-sm-2">
+                        <h6 class="text-center mt-3">CHILDRENS</h6>
+                            <select name="children" 
+                                    id="children"
+                                    class="form-select">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                    </div> -->
+                    <div class="col-lg-4 col-sm-4">
+                        <h6 class="mt-3 text-white">ROOMS</h6>
+                                <select name="rooms" 
+                                        id="rooms"
+                                        class="form-select">
+                                    <option value="1">DELUXE DOUBLE ROOM</option>
+                                    <option value="2">DELUXE DOUBLE POOL VIEW</option>
+                                    <option value="3">DELUXE DOUBLE OR TWIN ROOM</option>
+                                    <option value="4">DELUXE DOUBLE OR TWIN POOL VIEW</option>
+                                    <option value="5">DELUXE TRIPLE ROOM</option>
+                                    <option value="6">DELUXE TRIPLE POOL ROOM</option>
+                                    <option value="7">SUITE POOL VIEW</option>
+                                </select>
+                    </div>
+                    <div class="col-lg-2 col-sm-2">
+                        <button class="btn-book-now"
+                                style=" display:inline-block;text-align:center;
+                                        border-radius:5px;margin-top:43px;padding:7px 0;
+                                        max-width:150px;width:100%;font-weight:500;
+                                        color:#fff;border:none;outline:none;
+                                        background-color:#bd9c58;">FIND NOW</button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center text-uppercase p-3 mt-5" style="color:#987d46;">" Angkor Starlit Hotel "</h2>
+                <div class="room-line"></div>
             <p> Angkor Starlit Hotel is ideally located in a leafy street in the center of Siem Reap, 
                 in the vibrant Wat Bo area, the hotel boast 50’s-inspired, complemented by large 
                 green area and vertical gardens. This peaceful area adjacent to the river is just 
