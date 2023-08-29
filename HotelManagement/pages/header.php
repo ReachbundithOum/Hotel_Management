@@ -19,7 +19,7 @@
                             <a href="index.php?offer=special-offer">special offer</a>
                         </div>
                     </li>
-                    <li><a href="#">location</a></li>
+                    <li><a href="index.php?pg=location">location</a></li>
                     <li><a href="index.php?pg=contact">contact us</a></li>
                 </ul>
             </nav>

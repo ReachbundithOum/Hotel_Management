@@ -1,4 +1,19 @@
-
+<style>
+    .text-block{
+        position: absolute;
+        bottom: 585px;
+        right: 1rem;
+        background-color: #bd9c58;
+        color: #fff;
+        padding: .7rem .6rem 0;
+        border-radius: 5px;
+        width: auto;
+    }
+    .text-block p{
+        font-size: .9rem;
+        font-weight: 300;
+    }
+</style>
     <!--  Carousel Start  -->
     <div class="container-carousel" style="position:relative;">
         <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
@@ -51,7 +66,7 @@
         <div class="main-top">
             <div>
                 <h3>FIND A ROOM</h3>
-                <div class="row" style="background-color: hsl(158, 28%, 28%);padding:0px 15px 25px 25px;border-radius:10px;">
+                <div class="row" style="background-color: #494a4b;padding:0px 15px 25px 25px;border-radius:10px;">
                     <div class="col-lg-2 col-sm-2">
                         <h6 class="mt-3 text-white">ARRIVAL DATE</h6>
                         <input  type="date"
@@ -113,6 +128,7 @@
                 </div>
             </div>
             <h2 class="text-center text-uppercase p-3 mt-5" style="color:#987d46;">" Angkor Starlit Hotel "</h2>
+            <p>សាលារៀន</p>
                 <div class="room-line"></div>
             <p> Angkor Starlit Hotel is ideally located in a leafy street in the center of Siem Reap, 
                 in the vibrant Wat Bo area, the hotel boast 50’s-inspired, complemented by large 

@@ -1,3 +1,24 @@
+<style>
+    .text-block-contact{
+        position: absolute;
+        bottom: 615px;
+        right: 10px;
+        background-color: #bd9c58;
+        color: #fff;
+        padding: .7rem .6rem 0;
+        border-radius: 5px;
+        width: auto;
+    }
+    .text-block-contact p{
+        font-size: .9rem;
+        font-weight: 300;
+    }
+</style>
+    
+    
+    <div class="text-block-contact">
+        <p><i class="fa fa-phone" style="font-size:.8rem;"></i> +885 (0)92 213 824 | <i class="fa fa-edit"></i> Manage Your Booking</p>
+    </div>
     <main>
         <div class="container-contact">
             <div class="row">
@@ -65,7 +86,7 @@
                         </div>
                         <button type="button"
                                 name="btn-contact"
-                                class="btn-contact ">
+                                class="btn-contact">
                             <a href="#"> Send </a>
                         </button>
                     </div>
@@ -73,9 +94,6 @@
             </div>
         </div>
     </main>
-
-
-
     <!--  Button Scroll Start -->
     <button onclick="topFunction()" id="myBtn">
         <i class="fa fa-arrow-up"></i>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angkor Starlit Hotel</title>
     <link rel="stylesheet" href="../HotelManagement/style/style.css" />
+    <link rel="stylesheet" href="../HotelManagement/fonts/angkor.css" />
     <link rel="icon" href="../HotelManagement/images/Angkor-Starlit.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
@@ -15,19 +16,6 @@
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/df974fea5b.js" crossorigin="anonymous"></script>
 </head>
-<style>
-    .text-block{
-        position: absolute;
-        bottom: 570px;
-        right: 1rem;
-        background-color: #bd9c58;
-        color: #fff;
-        padding: 1rem 1rem 0 1rem;
-        border-radius: 5px;
-        width: auto;
-        font-weight: 400;
-    }
-</style>
 <body> 
     <?php
         include_once 'pages/header.php';

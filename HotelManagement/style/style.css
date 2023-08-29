@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=acme:400);
+/* @import url(https://fonts.bunny.net/css?family=acme:400); */
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 :root {
   --blue: #007bff;
@@ -287,8 +287,8 @@ width: 150px;
 }
 .btn-contact a{
 text-decoration: none;
-color: var(--dark);
-font-weight: 700;
+color: var(--white);
+font-weight: 500;
 text-transform: uppercase;
 }
 /*--  Contact Selection End  --*/
@@ -693,3 +693,35 @@ outline: none;
 }
 /* <!--  Main Content Special Offer End --> */
 /*-- offer page side end--*/
+/* Location side start */
+.container-location{
+  max-width: var(--breakpoint-xl);
+  margin: 0 auto;
+}
+.location-side{
+  margin-top: 3rem;
+}
+.location-detail span{
+  color: var(--icon);
+  margin-left: 20px;
+}
+.nav-responsive{
+  background-color:var(--dark);
+  width: 100%;
+  margin-top: -6px;
+  padding: .2rem;
+}
+.nav-item-map .nav-link{
+  color: var(--icon);
+  background-color: var(--white);
+  margin: .8rem;
+  padding: .6rem;
+  border-radius: 5px;
+  font-size: .9rem;
+}
+.nav-item-map .nav-link:hover{
+  background-color: var(--icon);
+	color: var(--white);
+	transition: all .5s ease;
+}
+/* Location side end */

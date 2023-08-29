@@ -1,101 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juk's Hotel</title>
-    <link rel="stylesheet" href="/HotelManagement/Style/style.css" />
-    <link rel="shortcut icon" href="/HotelManagement/Images/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/df974fea5b.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!--  Header Start  -->
-    <header>
-        <div class="container-fluid d-flex align-items-center justify-content-center pr-4 pl-4">
-            <div class="logo">
-                <a href="#">
-                    <img src="/HotelManagement/Images/Logo.png" alt=""  width="150px"/>
-                </a>
-            </div>
-            <nav>
-                <ul >
-                    <li><a href="/HotelManagement/Pages/home.html" target="_self">home</a></li>
-                    <li ><a href="/HotelManagement/Pages/Rooms/room.html" target="_self">rooms</a></li>
-                    <li class="menu"><a href="#">offers</a>
-                        <div class="sub-menu">
-                            <a href="#">dinner</a>
-                            <a href="#">wellness</a>
-                        </div>
-                    </li>
-                    <li><a href="#">location</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </nav>
-                <button type="button" name="btn-now" id="" class="btn-now">
-                    <a href="#" style="text-decoration:none;color:#fff;">book <!--<i class="fa fa-chevron-circle-right"></i>--> now</a>
-                </button>
-        </div>
-    </header>
-    <!--  Header End  -->
-    <!--  Location Selection Start -->
 
-    <!--  Location Selection End -->
-    <!--  Footer Selection Start  -->
-    <footer>
-        <div class="container-footer">
-            <div class="row">
-                <div class="col-sm-4 f-1">
-                    <h6>follow us</h6>
-                    <div class="social-icon ">
-                        <img src="/HotelManagement/Images/fb.png" alt="Facebook icon" id="fa" />
-                        <img src="/HotelManagement/Images/yt.png" alt="Youtube icon" id="yt" />
-                        <img src="/HotelManagement/Images/instar.png" alt="Instagram icon" id="in" />
-                        <img src="/HotelManagement/Images/tele.png" alt="Telegram icon"  id="te" />
-                        <img src="/HotelManagement/Images/pin.png" alt="Pinterest icon" id="pi" />
-                        <p>Juk's Hotel © 2023 All rights reserved. <br />
-                            Hotel Web Design by Bundith
-                        </p>
+    <div class="tab-content" id="nav-tabContent">
+		<div class="tab-pane fade show active" id="hotel-map" role="tabpanel" aria-labelledby="hotel-map-tab" tabindex="0">
+            <div class="location-hotel">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.773460838465!2d104.89215657504613!3d11.568091344092762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095173761d4a53%3A0xcd09ff2f4d326e3f!2z4Z6c4Z634Z6R4Z-S4Z6Z4Z624Z6f4Z-S4Z6Q4Z624Z6T4oCLIOGen-GfiuGet-Gej-Get-GegA!5e0!3m2!1skm!2skh!4v1693293372099!5m2!1skm!2skh" 
+                        width="100%" 
+                        height="560px" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div class="tab-pane fade show " id="hotel-to-shop" role="tabpanel" aria-labelledby="hotel-to-shop-tab" tabindex="0">
+            <div class="location-shop">
+                <iframe class="gmap_iframe" 
+                        width="100%"
+                        height="560px" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=restaurant&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                </iframe>
+            </div>
+        </div>
+        <div class="tab-pane fade show " id="hotel-to-airport" role="tabpanel" aria-labelledby="hotel-to-airport-tab" tabindex="0">
+            <div class="location-airport">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.990791532195!2d104.84241127512539!3d11.552517544399295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31094fd553400b85%3A0xd5336e32f60085ec!2z4Z6i4Z624Z6A4Z624Z6f4Z6Z4Z624Z6T4Z6K4Z-S4Z6L4Z624Z6T4Z6i4Z6T4Z-S4Z6P4Z6a4Z6H4Z624Z6P4Z634Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!5e0!3m2!1skm!2skh!4v1693294205698!5m2!1skm!2skh" 
+                        width="100%" 
+                        height="560px" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+            <nav class="nav-responsive">
+                <div class="nav justify-content-center">
+                    <div class="nav" role="tablist">
+                        <div class="nav-item-map">
+                            <button class="nav-link active" 
+                                id="hotel-map-tab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#hotel-map" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="hotel-map" 
+                                aria-selected="true">
+                                    HOTEL MAP
+                            </button>
+                        </div>
+                        <div class="nav-item-map">
+                            <button class="nav-link" 
+                                    id="hotel-to-shop-tab" 
+                                    data-bs-toggle="tab" 
+                                    data-bs-target="#hotel-to-shop" 
+                                    type="button" 
+                                    role="tab" 
+                                    aria-controls="hotel-to-shop" 
+                                    aria-selected="false">
+                                        HOTEL TO SHOPPING
+                            </button>
+                        </div>
+                        <div class="nav-item-map">
+                            <button class="nav-link" 
+                                    id="hotel-to-airport-tab" 
+                                    data-bs-toggle="tab" 
+                                    data-bs-target="#hotel-to-airport" 
+                                    type="button" 
+                                    role="tab" 
+                                    aria-controls="hotel-to-airport" 
+                                    aria-selected="false">
+                                        HOTEL TO AIRPORT
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <table>
-                        <tr>
-                            <th ><img src="/HotelManagement/Images/loca.png" alt="" /></th>
-                            <th class="text-col-2"><p style="margin-left: -40px;"> ADDRESS <br />Street 123, Wat Village, Phnom Penh, <br /> Cambodia </p></th>
-                        </tr>
-                        <tr>
-                            <th><img src="/HotelManagement/Images/ph.png" alt="" /></th>
-                            <th class="text-col-2"><p style="margin-left: -40px;">Telephone <br />+855 963905999 </p></th>
-                        </tr>
-                        <tr>
-                            <th><img src="/HotelManagement/Images/em.png" alt="" /></th>
-                            <th class="text-col-2"><p style="margin-left: -40px;">Email <br />bundithoum5724@gmail.com </p></th>
-                        </tr>
-                    </table>
+            </nav>
+    
+    
+    <div class="container-location">
+        <div class="location-side">
+            <h6>A good location..Yes it is <br />
+                <h2>Where about: Phnom Penh, Cambodia</h2>
+            </h6>
+            <p> Angkor Starlit's Hotel is centrally located in a leafy neighborhood in Phnom Penh City,
+                on the east bank of the Siem Reap River, minutes away by foot or tuk-tuk from the shopping,
+                entertainment, and restaurants at or near the Old Market and the Central Market.
+                The Old Town is a 20-minute drive from the entrance to the Angkor archaeological 
+                park and a roughly equal distance from the airport. One of our hotel limousines 
+                or your hired car can chauffeur you easily to or from these destinations.
+            </p>
+            <div class="row my-5">
+                <div class="col-sm-6">
+                    <img src="../HotelManagement/images/joi.jpg" alt="" width="100%" height="80%" style="border-radius:5px;"/>
                 </div>
-                <div class="col-sm-4">
-                    <div class="em-col-3">
-                        <h6>dont't miss our secret offer!</h6>
-                        <span>Only available for booking direct on the hotel website</span>
-                        <input  type="email"
-                                placeholder="Your email address"
-                                name="email-footer"
-                                class="form-control mt-3" required />
-                        <button type="submit"
-                                name="submit-footer"
-                                id=""
-                                class="btn btn-success mt-3">Subscribe</button>
+                <div class="col-sm-6">
+                    <h3 class="my-3">Hotel Address</h3>
+                    <div class="location-detail" style="list-style-type: none;">
+                        <li>GPS: <span>11.568086,104.894731</span></li>
+                        <li>Address: <span> No. 86A, Street 110,មហាវិថី សហពន្ធ័រុស្ស៊ី (១១០),ភ្នំពេញ </span></li>
+                        <li>Tel: <span>023 880 612</span> </li>
+                        <li>Email: <span>info@setecu.com</span></li>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!--  Footer Selection End  -->
-</body>
-</html>
+    </div>
+
+
+
